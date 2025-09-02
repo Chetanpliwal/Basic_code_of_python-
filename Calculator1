@@ -1,0 +1,19 @@
+n = int(input("Enter farst number :"))
+z = input("Enter the these are operetor -,+,*,/,%")
+m = int(input("Enter secound number :")) 
+
+def marks():
+    if(z == "+"):
+        print(n+m)
+    elif(z=="-"):
+        print(n-m)
+    elif(z == "*"):
+        print(n*m):
+    elif(z == "/"):
+        print(n/m)
+    elif(Z == "%"):
+        print(n%m)
+    else:
+        print("This Calculater is not enble to do this opertion")
+
+marks()
