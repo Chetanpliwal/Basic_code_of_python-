@@ -1,0 +1,44 @@
+quetionsd = ["Who is pm in india" , "ho is cm in rajsthan " , "Who is cm in Dhil " , "Who is Misyl Man "]
+ans1 = ["Narendr Modi" , "Rahol Gindi" , "Inder Gindi" , "Rajiv Gind"]
+
+print(type(ans1))
+print(quetionsd[0])
+for x in ans1:
+    print(x)
+ans = input()
+if(ans1[0]==ans):
+   print("yes")
+else:
+    print("no")
+
+ans2 = ["Schin Pylet" , "Ashok Ghalot" , "Narendr Modi" , "Vsundhra Raj" ]
+print(quetionsd[1])
+for y in ans2:
+    print(y)
+ans = input()    
+if(ans2[1]==ans):
+    print("yes")
+else:
+    print("no") 
+
+ans3 = ["Vsundhra Raj" , "Ashok Gholot" , "Kegriwal" , "Mamta Benrgi"]
+print(quetionsd[2])
+for z in ans3:
+    print(z)
+ans = input()    
+if(ans3[2]==ans):
+    print("yes")
+else:
+    print("no")    
+
+ans4 = ["D. Shara Bhi" , "A.P.J.Abdul kalam" , "C.V.Rman"]
+print(quetionsd[3])
+for a in ans4:
+    print(a)
+ans = input()
+if(ans4[1]==ans):
+    print("yes")
+
+else:
+    print("no")
+    
