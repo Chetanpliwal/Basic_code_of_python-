@@ -1,0 +1,40 @@
+# This is string and his methodes
+# string slicing
+
+name = " Chetan Paliwal!!!"
+print(name[0])#strig as array
+print(name[0:])#for print to end
+print(name[0:14])# In Slicing name[strat:end]
+# IN string how through a loop
+for i in name :
+    print(i)
+#Striing methods
+print(name.upper())# F0r doing upper case 
+print(name.lower())# For doing lower  case
+print(name.strip())# The strip() method removes any white spaces before and after the string.
+print(name.rstrip("!"))# For removes any characters: 
+print(name.replace("Chetan","Aman"))# replace any object
+print(name.split())#Splits the string at the whitespace " ".
+nam = "chetan paliwal"
+print(nam.capitalize())# For capitalize form
+print(name.center(50))#doing center :
+print(name.center(50,"."))
+count = name.count("a")#For count "A"
+print(count)
+print(nam.endswith("!!!"))# Give True and fales
+str1 = "Welcome to the Console !!!" 
+print(str1.endswith("to", 4, 10))
+print(name.find("Pa"))# give index of element in string and missing give my -1
+print(name.index("wal")) # give index same but is not  give error
+print(name.isalnum())#its cheak chacacters A-z and 0-9 if give false
+print(name.isalpha())#its  cheak chacacters A-z and 0-9 if give True
+print(name.islower())#The islower() method returns True if all the characters in the string are lower case, else it returns False.
+print(name.isprintable())#The isprintable() method returns True if all the values within the given string are printable, if not, then return False.
+st1 = " " #using Spacebar 
+print(st1.isspace())#The isspace() method returns True only and only if the string contains white spaces, else returns False.
+print(name.istitle())# its is for check only first letter in string.
+print(name.isupper())# its check all letter in string for uppercase.
+print(name.startswith("C"))# its check who is frst element.
+print(name.swapcase())# its give  character upper to lower 
+print(nam.title())# The title() method capitalizes each letter of the word within the string.
+  
